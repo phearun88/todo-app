@@ -9,7 +9,7 @@ while True:
         print(user_action)
         todo = user_action[4:]
 
-        todos = get_todos("files/todos.txt")
+        todos = get_todos()
 
         todos.append(todo + '\n')
 
